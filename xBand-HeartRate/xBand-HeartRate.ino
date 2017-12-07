@@ -40,4 +40,3 @@ void heartAverage(){           //The function for calculating heart rate
     restingHeartRate = average/20.0;
   
 }
-
