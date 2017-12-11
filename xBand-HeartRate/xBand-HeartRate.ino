@@ -2,9 +2,12 @@
 File Name: xBand.h
 Licence: © Copyright 2017 xCorp Ltd. All Rights Reserved
 Created: 16/11/2017
-Version: 0.6 (I need the heartrate data guys)  
-Author: Konstantinos Gkatzonis (20175042@student.anatolia.edu.gr)
+Modified: 11/12/2017
+Version: 0.6 (I need the heartrate data guys --> What do you mean??)  
+Author: Konstantinos Gkatzonis (20175042@student.anatolia.edu.gr),
+        Konstantinos Oikonomou (20151182@student.anatolia.edu.gr),
 */
+
 #include <Wire.h>
 #include "MAX30100_PulseOximeter.h" //This is the heart rate library
 
@@ -12,7 +15,7 @@ PulseOximeter heartrate; //Initializes heart rate function
 
 //Start of global variables
 double restingHeartRate = 0; //The resting heart rate of the person. to be gathered when he wears the watch.
-//End of global variable
+//End of global variables
 
 void setup() {
   heartrate.begin();  //this initializes the heart rate sensor
